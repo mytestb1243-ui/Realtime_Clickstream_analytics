@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sign up — Streamline</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body data-page-category="Landing Page">
+
+<header class="site">
+  <div class="wrap">
+    <div class="brand">Stream<span>line</span></div>
+    <nav class="main">
+      <a href="/index.html">Home</a>
+      <a href="/product.html">Product</a>
+      <a href="/pricing.html">Pricing</a>
+      <a href="/blog.html">Blog</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section" style="padding-top:56px;">
+  <div class="wrap">
+    <h2 style="text-align:center;">Create your account</h2>
+    <p class="sub" style="text-align:center;">This form doesn't create a real account — clicking "Create account" below just
+       sends a real <code>conversion</code> event to the pipeline, which is the point of this demo.</p>
+
+    <form class="signup" onsubmit="return false;">
+      <label>Work email</label>
+      <input type="email" placeholder="you@example.com">
+      <label>Company name</label>
+      <input type="text" placeholder="Acme Inc.">
+      <button type="submit" class="btn btn-primary" data-track data-conversion="Signup" data-value="0">Create account</button>
+    </form>
+
+    <p class="tag-note" style="max-width:420px;margin-left:auto;margin-right:auto;">
+      Tip: try opening this site with <code>?utm_source=social</code> or <code>?utm_source=google</code>
+      added to the address bar before you click around — it changes what "traffic source" this visit
+      is recorded as, so you can see different sources show up in your report.
+    </p>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">Streamline is a fictional demo product used to generate real click data for this project. Not a real company.</div>
+</footer>
+
+<script src="/tracker.js"></script>
+</body>
+</html>
