@@ -1,4 +1,4 @@
-# Real-Time Clickstream Analytics — End-to-End Demo
+# Real-Time Clickstream Analytics — End-to-End Demo 1
 
 > A working analytics pipeline you can watch happen: click a button in your
 > browser and see the number move in your database seconds later.
